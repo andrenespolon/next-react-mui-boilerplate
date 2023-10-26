@@ -226,4 +226,26 @@ export const components: ThemeComponents = {
 			}),
 		},
 	},
+	MuiCheckbox: {
+		defaultProps: {
+			disableRipple: true,
+			size: 'small',
+		},
+		styleOverrides: {
+			root: {
+				transform: 'scale(0.8)',
+			},
+		},
+	},
+	MuiRadio: {
+		defaultProps: {
+			disableRipple: true,
+			size: 'small',
+		},
+		styleOverrides: {
+			root: {
+				transform: 'scale(0.8)',
+			},
+		},
+	},
 };
