@@ -248,4 +248,14 @@ export const components: ThemeComponents = {
 			},
 		},
 	},
+	MuiTooltip: {
+		defaultProps: {
+			arrow: false,
+		},
+		styleOverrides: {
+			tooltip: {
+				fontSize: '0.7rem',
+			},
+		},
+	},
 };
